@@ -26,15 +26,15 @@ namespace GradeBook.GradeBooks
             {
                 return 'A';
             }
-            if(averageGrade >= studentsGrade[inputgrade * 2] - 1)
+            if(averageGrade >= studentsGrade[(inputgrade * 2)- 1])
             {
                 return 'B';
             }
-            if (averageGrade >= studentsGrade[inputgrade * 3] - 1)
+            if (averageGrade >= studentsGrade[(inputgrade * 3) - 1])
             {
                 return 'C';
             }
-            if (averageGrade >= studentsGrade[inputgrade * 4] - 1)
+            if (averageGrade >= studentsGrade[(inputgrade * 4) - 1])
             {
                 return 'D';
             }
